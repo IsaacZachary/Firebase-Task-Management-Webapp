@@ -1,23 +1,28 @@
-# Task-Manager
+# Firebase Task Management WebApp
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 This project is a simple to-do list developed with ReactJS, Redux and Firebase.
-
-The application allows:
-- Register as a user
-- Log in as a user
-- Logout as a user
-- Add tasks
-- Add categories
-- Delete tasks
-- Delete categories
-- Change your profile picture.
-## Built with 🛠️
 
 * [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) - Frontend Framework 
 * [Bootstrap](https://getbootstrap.com/) - CSS Framework
 * [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps
 * [Firebase](https://rometools.github.io/rome/) - A comprehensive app
 development platform by Google
+
+## App Description
+
+1. Register as a user
+2. Log in as a user
+3. Logout as a user
+4. Add tasks
+5. Add categories
+6. Complete tasks
+7. Delete categories
+8. Change your profile picture.
 
 ### Firebase products used
 
@@ -26,10 +31,10 @@ development platform by Google
 * [Cloud Storage](https://firebase.google.com/docs/storage) - Store and view user-generated content
 
 
-## Demo 🚀
+## Live Demo 🚀
 You can see the demo [here](https://task-manager-135a7.web.app/) 
 
-## Screenshots📌
+## Screenshots
 
 ### Login Page
 
@@ -40,7 +45,7 @@ On this page the user can log in using their email and their password.
 
 ### Register Page
 
-On this page the user can register by entering a name, their email and their password.
+Enter name, email and password.
 
 ![image](https://user-images.githubusercontent.com/59363092/83806381-b556ac80-a6b1-11ea-8116-cb33b8c81ea3.png)
 
@@ -50,27 +55,38 @@ Once the user has logged in, he can access the main page of the application. In 
 
 #### Main image:
 
-![image](https://user-images.githubusercontent.com/59363092/83806492-e0d99700-a6b1-11ea-8886-ac4244e783e6.png)
-
-#### Adding a new category:
-
-![image](https://user-images.githubusercontent.com/59363092/83806532-f2bb3a00-a6b1-11ea-9a70-6b2f00518c6f.png)
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/2.PNG)
 
 #### Adding a new task:
 
-![image](https://user-images.githubusercontent.com/59363092/83806641-2007e800-a6b2-11ea-8fff-1d3d9a41ffc6.png)
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/3.PNG)
 
-#### New example category:
+#### Adding a new category:
 
-![image](https://user-images.githubusercontent.com/59363092/83806747-4a59a580-a6b2-11ea-8f5d-4f01fe669658.png)
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/8.PNG)
+
+#### Work category:
+
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/4.PNG)
+
+#### Home category:
+
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/5.PNG)
+
+#### Programming category:
+
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/6.PNG)
 
 #### Deleting a category:
 
-![image](https://user-images.githubusercontent.com/59363092/83806834-60676600-a6b2-11ea-8618-98aa73768ebc.png)
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/7.PNG)
+
+#### All Tasks and Categories created:
+
+![image](https://github.com/IsaacZachary/Firebase-Task-Management-Webapp/blob/main/public/9.PNG)
 
 
-
-## How to use this code ⚙️
+## To use this code:
 
 1. You [clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository 
 2. Install all the dependences with `npm install`
@@ -92,9 +108,4 @@ const firebaseConfig = {
 6. Once connected to firebase, deploy all the configured rules
 7. Finally you can run the react application with the command `npm start`. [More Info](https://facebook.github.io/create-react-app/docs/getting-started)
 
-
-
-
-## Authors ✒️
-**Javier Linares** - *Initial work* - [soyjavierlinares](https://github.com/soyjavierlinares)
 
